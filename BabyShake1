@@ -1,0 +1,16 @@
+
+print("Welcome to ShakeyBaby.exe")
+fun = int(input("how many tiem you want baby to shake?"))
+baby_shoke = 1
+while True:
+    print("(*^_^*)")
+    print(" [   ]")
+    print("  ! !")
+    print(" (*^_^*)")
+    print("  [   ]")
+    print("   ! !")
+    baby_shoke = baby_shoke + 1
+    if baby_shoke == fun:
+        break
+print("YOUR BABY HAS BEEN OFFICIALY SHOKE")
+    
